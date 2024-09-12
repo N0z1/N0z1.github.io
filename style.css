@@ -8,17 +8,19 @@
     margin: 0;
 }
 body{
-    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    background: rgb(154,171,255);
+    background: linear-gradient(0deg, rgba(154,171,255,1) 0%, rgba(72,228,220,1) 100%);
 }
 h1{
     font-family: "Text Me One";
 }
+
 a{
-   text-decoration: none;
+    text-decoration: none;
 }
 
 .logo a{
-     font-family: "Text Me One";
+    font-family: "Text Me One";
     color : white;
     font-size: 30px;
     letter-spacing: 3px;
@@ -26,8 +28,8 @@ a{
 }
 span{
     /*add gradient color choice to the text "Sum" of the Logo*/
-    background: rgb(154,171,255);
-    background: radial-gradient(circle, rgba(154,171,255,1) 0%, rgba(72,228,220,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent ;
 }
@@ -39,10 +41,72 @@ nav{
     align-items: center;
     justify-content: space-around;
 } 
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    Padding: 0px 18px;
+}
+.menu ul li a:hover{
+    color: #727272;
+    transition:0.5s; 
+}
+.btn a{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    padding: 14px 30px;
+    color: #212224;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-family:"Text Me One"
+}
+.btn a:hover{
+    opacity: 0.8;
+    transition:0.5s;
+}
+
+.main-content{
+    width:1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text h1{
+    Color: white;
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.text p{
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.btn2{
+    color:white;
+    border: 2px solid rgba(34,193,195,1);
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 12px 28px;
+}
+.btn2:hover{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: white;
+    transition:0.5s;
+}
+img {
+    width: 540px;
+    height: 540px;
+}
+
 body>header {
     height: 100vh;
     width: 100%;
-}
-body>footer{
-
 }
