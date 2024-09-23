@@ -104,6 +104,7 @@ nav{
 img {
     width: 540px;
     height: 540px;
+    overflow-x: hidden;
 }
 
 body>header {
